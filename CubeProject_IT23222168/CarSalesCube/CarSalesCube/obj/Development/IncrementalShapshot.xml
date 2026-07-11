@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CarSalesCube</Database>
+    <Server>DESKTOP-VOHEVGT\SQLDEV</Server>
+    <ConnectionString>Data Source=DESKTOP-VOHEVGT\SQLDEV;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>VzkRmZIjX7VQtxia6gyNpfj4Co4=3/31/2026 9:34:12 AM3/31/2026 9:34:12 AM</TimeStamp>
+        <ID>
+          <String>Car Sales DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ClAfKpP4cKNef0SPmrn5yJgzUbw=3/31/2026 9:52:08 AM3/31/2026 9:52:07 AM</TimeStamp>
+        <ID>
+          <String>Car Sales DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>F6IyGSYSKbD2ElJ1jrQhbP42kbc=3/31/2026 10:00:45 AM3/31/2026 10:00:44 AM</TimeStamp>
+        <ID>
+          <String>Dim Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>L4IM/RLrzFHFEVE3sZ+4HkuQ0lM=3/31/2026 10:25:50 AM3/31/2026 10:00:44 AM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>f+63jjn3K3ThQTzJrhLczkzy+j4=3/31/2026 10:30:04 AM3/31/2026 10:00:44 AM</TimeStamp>
+        <ID>
+          <String>Dim Vehicle</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wQzG/vXa8nRr+rKOkJB1JfM/ehg=3/31/2026 10:00:45 AM3/31/2026 10:00:44 AM</TimeStamp>
+        <ID>
+          <String>Dim Seller</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>IWW8QUs0xfC5kRmUg+Xooko36DI=3/31/2026 10:30:00 AM3/31/2026 10:00:44 AM3RG+oIk7fIg6zJUpMjYMNcIglJY=3/31/2026 10:00:45 AM3/31/2026 10:00:44 AM</TimeStamp>
+        <ID>
+          <String>Car Sales DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>ukKvUyZRqav+gyxmjDSpyK6/yxc=3/31/2026 9:20:16 AM3/31/2026 9:20:15 AM</TimeStamp>
+      <ID>
+        <String>CarSalesCube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-03-31T05:29:30.883333Z</LastDeployed>
+</DeploymentSnapshot>
